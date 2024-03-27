@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className='mt-16'>
       <div className='container mx-auto px-4'>
         <Link href='/' className='font-black text-tertiary-dark'>
-          Hotelzz
+          Kuawi Beach Resort
         </Link>
 
         <h4 className='font-semibold text-[40px] py-6'>Contact</h4>
@@ -17,7 +17,7 @@ const Footer = () => {
             <p>123 Road</p>
             <div className='flex items-center py-4'>
               <BsFillSendFill />
-              <p className='ml-2'>codewithlari</p>
+              <p className='ml-2'>Kuawi Resort, Hawaii</p>
             </div>
             <div className='flex items-center'>
               <BsTelephoneOutbound />
@@ -25,7 +25,7 @@ const Footer = () => {
             </div>
             <div className='flex items-center pt-4'>
               <BiMessageDetail />
-              <p className='ml-2'>codewithlari</p>
+              <p className='ml-2'>Vijith</p>
             </div>
           </div>
 
@@ -47,7 +47,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className='bg-tertiary-light h-10 md:h-[70px] mt-16 w-full bottom-0 left-0' />
+      <div className='bg-tertiary-dark h-10 md:h-[70px] mt-16 w-full bottom-0 left-0' />
     </footer>
   );
 };
